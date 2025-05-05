@@ -13,7 +13,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 //import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+//import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
@@ -36,7 +36,7 @@ import {
  */
 
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
+  title: 'Ally\'s Resume',
   description: "",
 };
 
@@ -60,9 +60,9 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 /**
  * Hero section
  */
-export const heroData: Hero = {
-  imageSrc: heroImage,
-  name: `I'm Yy.`,
+export const heroData = {
+  //imageSrc: heroImage,
+  name: `I'm Ally.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">

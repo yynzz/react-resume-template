@@ -15,6 +15,7 @@ const nextConfig = {
 
     return config;
   },
+  transpilePackages: ['framer-motion'],
   compress: true,
   generateEtags: true,
   pageExtensions: ['tsx', 'mdx', 'ts'],
