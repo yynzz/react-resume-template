@@ -22,7 +22,6 @@ import {
   About,
   ContactSection,
   ContactType,
-  Hero,
   HomepageMeta,
   PortfolioItem,
   SkillGroup,
@@ -73,18 +72,19 @@ export const heroData = {
     </>
   ),
   actions: [
-    /*
+  
     {
       href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
-      Icon: ArrowDownTrayIcon,
+      Icon: null,
     },
-    */
+  
     {
       href: `#${SectionId.Contact}`,
-      text: 'Contact',
+      text: 'Contact Me',
       primary: false,
+      Icon: null,
     },
   ],
 };
