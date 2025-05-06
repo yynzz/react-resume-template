@@ -16,6 +16,17 @@ export default function Document() {
         <meta content="notranslate" name="google" />
       </Head>
       <body className="bg-black">
+      <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (window.location.hash && performance.navigation.type === 1) {
+                const cleanUrl = window.location.pathname + window.location.search;
+                history.replaceState(null, "", cleanUrl);
+                window.scrollTo(0, 0);
+              }
+            `,
+          }}
+        />
         <Main />
         <NextScript />
       </body>

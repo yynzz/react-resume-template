@@ -1,6 +1,6 @@
 import {
   AcademicCapIcon,
-  //ArrowDownTrayIcon,
+  ArrowDownTrayIcon,
   //BuildingOffice2Icon,
   CalendarIcon,
   //FlagIcon,
@@ -22,6 +22,7 @@ import {
   About,
   ContactSection,
   ContactType,
+  Hero,
   HomepageMeta,
   PortfolioItem,
   SkillGroup,
@@ -59,7 +60,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 /**
  * Hero section
  */
-export const heroData = {
+export const heroData: Hero = {
   //imageSrc: heroImage,
   name: `I'm Ally.`,
   description: (
@@ -77,6 +78,7 @@ export const heroData = {
       href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
+      Icon: ArrowDownTrayIcon,
     },
   
     {
