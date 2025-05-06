@@ -19,7 +19,7 @@ export default function Document() {
       <script
           dangerouslySetInnerHTML={{
             __html: `
-              if (window.location.hash && performance.navigation.type === 1) {
+              if (window.location.hash) {
                 const cleanUrl = window.location.pathname + window.location.search;
                 history.replaceState(null, "", cleanUrl);
                 window.scrollTo(0, 0);
