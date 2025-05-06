@@ -97,7 +97,7 @@ export const aboutData: About = {
   description: `Hello, Ni hao!`,
   aboutItems: [
     {label: 'Location', text: 'Taipei, Taiwan', Icon: MapIcon},
-    {label: 'Age', text: '3', Icon: CalendarIcon},
+    {label: 'Employment', text: 'Financial Sector', Icon: CalendarIcon},
     {label: 'Interests', text: 'Sleep, Marathon, Coffee', Icon: SparklesIcon},
     {label: 'Study', text: 'MBA, NSYSU', Icon: AcademicCapIcon},
   ],
@@ -183,6 +183,7 @@ export const experience: TimelineItem[] = [
       </p>
     ),
   },
+  /*
   {
     date: 'Oct 2018 - Sep 2021',
     location: 'Garage Startup Studio',
@@ -193,7 +194,9 @@ export const experience: TimelineItem[] = [
       </p>
     ),
   },
+  */
 ];
+
 
 
 /**

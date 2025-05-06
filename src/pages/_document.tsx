@@ -17,7 +17,7 @@ export default function Document() {
       </Head>
       <body className="bg-black">
       <script
-          dangerouslySetInnerHTML={{
+          dangerouslySetInnerHTML={{  
             __html: `
               if ('scrollRestoration' in history) {
                 history.scrollRestoration = 'manual';
