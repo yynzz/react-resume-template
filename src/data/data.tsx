@@ -77,14 +77,12 @@ export const heroData = {
       href: '/assets/resume.pdf',
       text: 'Resume',
       primary: true,
-      Icon: null,
     },
   
     {
       href: `#${SectionId.Contact}`,
       text: 'Contact Me',
       primary: false,
-      Icon: null,
     },
   ],
 };
