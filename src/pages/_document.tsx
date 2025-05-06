@@ -19,9 +19,12 @@ export default function Document() {
       <script
           dangerouslySetInnerHTML={{
             __html: `
+              if ('scrollRestoration' in history) {
+                history.scrollRestoration = 'manual';
+              }
+
               if (window.location.hash) {
-                const cleanUrl = window.location.pathname + window.location.search;
-                history.replaceState(null, "", cleanUrl);
+                history.replaceState(null, "", window.location.pathname + window.location.search);
                 window.scrollTo(0, 0);
               }
             `,
